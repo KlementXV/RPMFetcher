@@ -2,6 +2,14 @@
 
 **RPMFetcher** is a Docker image built on `rockylinux:9`, designed to streamline RPM downloads and repository management. By default, it includes the Kubernetes repository, but you can extend it by adding custom `.repo` files to the `/repos` directory. Additionally, RPMFetcher provides two main functions: **`list`** and **`download`** for managing packages.
 
+## Image Availability
+The RPMFetcher Docker image is available by default on GitHub Container Registry (GHCR):
+ghcr.io/klementxv/rpmfetcher
+
+Pull the image directly with:
+```bash
+docker pull ghcr.io/klementxv/rpmfetcher:latest
+```
 
 ## Features
 
